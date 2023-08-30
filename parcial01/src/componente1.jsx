@@ -9,6 +9,9 @@ export const Componente = () => {
     setHoras(Math.floor(segundos / 3600));
     setMinutos(Math.floor((segundos % 3600) / 60));
     setSegundos(Math.floor((segundos % 3600) % 60));
+    console.log(horas);
+    console.log(minutos);
+    console.log(segundos);
   };
 
   return (
